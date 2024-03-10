@@ -331,17 +331,22 @@ a:focus {
           align-items: center;
 }
 
+
 .slider_section #customCarousel1 {
   width: 100%;
   position: unset;
 }
-
+/* .carousel-item div .row{
+  flex-direction: row-reverse;
+} */
 .slider_section .detail-box {
   color: #ffffff;
   margin-bottom: 145px;
+  text-align: start;
 }
 
 .slider_section .detail-box h1 {
+  text-align: start;
   font-size: 3.5rem;
   font-weight: bold;
   margin-bottom: 15px;
