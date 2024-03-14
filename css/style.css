@@ -515,7 +515,7 @@ a:focus {
   color: #ffffff;
   border-radius: 15px;
   overflow: hidden;
-  background: linear-gradient(to bottom, #f1f2f3 25px, #222831 25px);
+  background: linear-gradient(to bottom, #f1f2f3 25px, #220639 25px);
 }
 
 .food_section .box .img-box {
@@ -620,7 +620,7 @@ a:focus {
 }
 
 .about_section {
-  background: #222831;
+  background: #e69c00;
   color: #ffffff;
 }
 
@@ -646,8 +646,12 @@ a:focus {
   position: relative;
   z-index: 2;
 }
+.detail-box{
+  text-align: start;
+}
 
 .about_section .detail-box p {
+  text-align: start;
   margin-top: 15px;
 }
 
@@ -676,6 +680,7 @@ a:focus {
 }
 
 .book_section .form_container .form-control {
+  display: flex;
   width: 100%;
   border: none;
   height: 50px;
@@ -690,6 +695,16 @@ a:focus {
           box-shadow: none;
 }
 
+.nice-select .option {
+  display: flex;
+}
+label[for="delivary_time"]{
+  width: 100%;
+  text-align: start;
+}
+#delivary_time{
+  justify-content: flex-end;
+}
 .book_section .form_container .form-control::-webkit-input-placeholder {
   color: #222222;
 }
